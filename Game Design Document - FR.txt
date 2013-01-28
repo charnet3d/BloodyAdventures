@@ -1,0 +1,28 @@
+Gameplay:
+-----------
+
+- Joueur (globule rouge) doit transporter de l'oxygene à la destination
+
+- La globule rouge peut pour l'instant MARCHER, COURIR, SAUTER et ATTAQUER
+
+- Pour pouvoir courir, le joueur doit syncroniser le controle avec le signal de battement de coeur, il doit maintenir cette syncronisation pour continuer à courir
+- Si on syncronise une attaque avec le battement de coeur on peut attaquer avec plus de force.
+
+- il y a plusieurs obstacles dans le niveau
+- Obstacls possibles pendant le jeu: 
+	* des graisses qui ralentisse le mouvement
+	* des virus qui font mal, si l'un d'eux touche la globule rouge elle perd un peu de l'oxygène qu'elle transporte
+
+
+Les niveaux:
+-------------
+- Les scène sont dans des veines
+- Il y a des montées, des descentes, des endroit où il faut sauter (escaliers)
+- Il y a des graisses sur le chemin qu'il faut éviter
+- Des ennemis peuvent être rencontrés dans des endroits spécifiques
+
+DEPRECATED
+--------------
+- La globule blanche peut MARCHER, ATTAQUER et SAUTER
+* des endroit où les veines se fermes et s'ouvre avec un rythme et il doit eviter de se faire ecraser
+- il peut à un moment appeler une globule blanche pour eradiquer des virus en chemin
